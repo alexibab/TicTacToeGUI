@@ -22,7 +22,7 @@ public class TicTacToeGUI extends JFrame {
    private JMenuItem novaPartida;
 
    /**
-    * Constructor: InterfÌcie Gr‡fica del tres en ratlla
+    * Constructor: Interf√≠cie Gr√†fica del tres en ratlla
     * @param cap
     * @return void
     */
@@ -44,7 +44,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * MËtode: initialitza la barra de menus del tres en ratlla
+    * M√®tode: initialitza la barra de menus del tres en ratlla
     * @param cap
     * @return void
     */
@@ -73,7 +73,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * MËtode: buida el contingut del taulell.
+    * M√®tode: buida el contingut del taulell.
     * @param cap
     * @return void
     */	
@@ -88,7 +88,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * MËtode: initialitza el taulell.
+    * M√®tode: initialitza el taulell.
     * @param cap
     * @return void
     */		
@@ -114,7 +114,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * MËtode: Bescanvia el Jugador.
+    * M√®tode: Bescanvia el Jugador.
     * @param cap
     * @return void
     */	
@@ -138,7 +138,22 @@ public class TicTacToeGUI extends JFrame {
       // 0,0 + 1,1 + 2,2		
       // 0,2 + 1,1 + 2,0
 
-      
+         
+	  if(	
+   			
+	    		(taulell[0][0].getText().equals(jugadorActual) && taulell[0][1].getText().equals(jugadorActual) && taulell[0][2].getText().equals(jugadorActual))   || 
+	    		(taulell[1][0].getText().equals(jugadorActual) && taulell[1][1].getText().equals(jugadorActual) && taulell[1][2].getText().equals(jugadorActual))   ||
+	    		(taulell[2][0].getText().equals(jugadorActual) && taulell[2][1].getText().equals(jugadorActual) && taulell[2][2].getText().equals(jugadorActual))   
+	    		
+	    			
+	    			
+	    			
+	    			) {
+				JOptionPane.showMessageDialog(null, "El jugador " +
+						jugadorActual + " ha guanyat!");
+				tenimGuanyador = true;
+			}
+
 	
    }
 
