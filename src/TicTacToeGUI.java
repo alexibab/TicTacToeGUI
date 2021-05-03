@@ -9,6 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 
 public class TicTacToeGUI extends JFrame {
    private Container pane;
@@ -137,12 +138,22 @@ public class TicTacToeGUI extends JFrame {
       // 0,0 + 1,1 + 2,2		
       // 0,2 + 1,1 + 2,0
 
-      /*
-    	if(	taulell[2][0].getText().equals(jugadorActual) ) {
-			JOptionPane.showMessageDialog(null, "El jugador " +
-					jugadorActual + " ha guanyat!");
-			tenimGuanyador = true;
-		}*/
+      
+    	   if(	
+   			
+	    		(taulell[0][0].getText().equals(jugadorActual) && taulell[0][1].getText().equals(jugadorActual) && taulell[0][2].getText().equals(jugadorActual))   || 
+	    		(taulell[1][0].getText().equals(jugadorActual) && taulell[1][1].getText().equals(jugadorActual) && taulell[1][2].getText().equals(jugadorActual))   ||
+	    		(taulell[2][0].getText().equals(jugadorActual) && taulell[2][1].getText().equals(jugadorActual) && taulell[2][2].getText().equals(jugadorActual))   
+	    		
+	    			
+	    			
+	    			
+	    			) {
+				JOptionPane.showMessageDialog(null, "El jugador " +
+						jugadorActual + " ha guanyat!");
+				tenimGuanyador = true;
+			}
+
 
 
    }
