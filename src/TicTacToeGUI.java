@@ -22,7 +22,7 @@ public class TicTacToeGUI extends JFrame {
    private JMenuItem novaPartida;
 
    /**
-    * Constructor: Interfície Gràfica del tres en ratlla
+    * Constructor: Interfï¿½cie Grï¿½fica del tres en ratlla
     * @param cap
     * @return void
     */
@@ -44,7 +44,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * Mètode: initialitza la barra de menus del tres en ratlla
+    * Mï¿½tode: initialitza la barra de menus del tres en ratlla
     * @param cap
     * @return void
     */
@@ -73,7 +73,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * Mètode: buida el contingut del taulell.
+    * Mï¿½tode: buida el contingut del taulell.
     * @param cap
     * @return void
     */	
@@ -88,7 +88,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * Mètode: initialitza el taulell.
+    * Mï¿½tode: initialitza el taulell.
     * @param cap
     * @return void
     */		
@@ -114,7 +114,7 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-    * Mètode: Bescanvia el Jugador.
+    * Mï¿½tode: Bescanvia el Jugador.
     * @param cap
     * @return void
     */	
@@ -139,16 +139,9 @@ public class TicTacToeGUI extends JFrame {
       // 0,2 + 1,1 + 2,0
 
       
-    	   if(	
-   			
-	    		(taulell[0][0].getText().equals(jugadorActual) && taulell[0][1].getText().equals(jugadorActual) && taulell[0][2].getText().equals(jugadorActual))   || 
+    	   if( (taulell[0][0].getText().equals(jugadorActual) && taulell[0][1].getText().equals(jugadorActual) && taulell[0][2].getText().equals(jugadorActual))   || 
 	    		(taulell[1][0].getText().equals(jugadorActual) && taulell[1][1].getText().equals(jugadorActual) && taulell[1][2].getText().equals(jugadorActual))   ||
-	    		(taulell[2][0].getText().equals(jugadorActual) && taulell[2][1].getText().equals(jugadorActual) && taulell[2][2].getText().equals(jugadorActual))   
-	    		
-	    			
-	    			
-	    			
-	    			) {
+	    		(taulell[2][0].getText().equals(jugadorActual) && taulell[2][1].getText().equals(jugadorActual) && taulell[2][2].getText().equals(jugadorActual)) 	) {
 				JOptionPane.showMessageDialog(null, "El jugador " +
 						jugadorActual + " ha guanyat!");
 				tenimGuanyador = true;
