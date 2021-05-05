@@ -130,11 +130,8 @@ public class TicTacToeGUI extends JFrame {
    }
 
    /**
-<<<<<<< HEAD
     * M�tode: Bescanvia el Jugador.
-=======
     * Mètode: Bescanvia el Jugador.
->>>>>>> 975fbd67c37b831bc645a19af66c4e44cf460016
     * @param cap
     * @return void
     */	
